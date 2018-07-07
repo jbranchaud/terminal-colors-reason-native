@@ -127,23 +127,23 @@ let run = () => {
    */
 
   print_endline("Here are some colors:");
-  print_endline("  " ++ Color.black("black: [30, 39]"));
-  print_endline("  " ++ Color.red("red: [31, 39]"));
-  print_endline("  " ++ Color.green("green: [32, 39]"));
-  print_endline("  " ++ Color.yellow("yellow: [33, 39]"));
-  print_endline("  " ++ Color.blue("blue: [34, 39]"));
-  print_endline("  " ++ Color.magenta("magenta: [35, 39]"));
-  print_endline("  " ++ Color.cyan("cyan: [36, 39]"));
-  print_endline("  " ++ Color.white("white: [37, 39]"));
-  print_endline("  " ++ Color.gray("gray: [90, 39]"));
+  print_endline("-  " ++ Color.black("black: [30, 39]"));
+  print_endline("-  " ++ Color.red("red: [31, 39]"));
+  print_endline("-  " ++ Color.green("green: [32, 39]"));
+  print_endline("-  " ++ Color.yellow("yellow: [33, 39]"));
+  print_endline("-  " ++ Color.blue("blue: [34, 39]"));
+  print_endline("-  " ++ Color.magenta("magenta: [35, 39]"));
+  print_endline("-  " ++ Color.cyan("cyan: [36, 39]"));
+  print_endline("-  " ++ Color.white("white: [37, 39]"));
+  print_endline("-  " ++ Color.gray("gray: [90, 39]"));
 
-  print_endline("  " ++ Color.red_bright("redBright: [91, 39]"));
-  print_endline("  " ++ Color.green_bright("greenBright: [92, 39]"));
-  print_endline("  " ++ Color.yellow_bright("yellowBright: [93, 39]"));
-  print_endline("  " ++ Color.blue_bright("blueBright: [94, 39]"));
-  print_endline("  " ++ Color.magenta_bright("magentaBright: [95, 39]"));
-  print_endline("  " ++ Color.cyan_bright("cyanBright: [96, 39]"));
-  print_endline("  " ++ Color.white_bright("whiteBright: [97, 39]"));
+  print_endline("-  " ++ Color.red_bright("redBright: [91, 39]"));
+  print_endline("-  " ++ Color.green_bright("greenBright: [92, 39]"));
+  print_endline("-  " ++ Color.yellow_bright("yellowBright: [93, 39]"));
+  print_endline("-  " ++ Color.blue_bright("blueBright: [94, 39]"));
+  print_endline("-  " ++ Color.magenta_bright("magentaBright: [95, 39]"));
+  print_endline("-  " ++ Color.cyan_bright("cyanBright: [96, 39]"));
+  print_endline("-  " ++ Color.white_bright("whiteBright: [97, 39]"));
 };
 
 run();
